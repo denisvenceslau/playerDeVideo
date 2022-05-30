@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+.background{
+    width: 1500px;
+    height: 700px;
+    background-color: 	#1C1C1C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.playlist{
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    
+}
+.player{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    left: 900px;
+  top: 60px;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+    
+}
+button{
+    width: 730px;
+    padding: 15px;
+    margin: 5px;
+    text-transform: uppercase;
+    text-decoration: solid;
+    border-radius: 5px;
+    pointer-events: painted;
+    background-color: black;
+    color: white;
+    border-style: hidden;
+}
+#logo{
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    bottom: 310px;
+    
+}
+#nomeMusica{
+    position: relative;
+    top: 300px;
+    left:0px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+.btn{
+    position: relative;
+    top: 350px;
+    left: 220px;
+}

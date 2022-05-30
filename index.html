@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dina Player</title>
+    <link rel="shortcut icon" href="./assets/fav.png" type="image/x-icon">
+</head>
+<body>
+<div class="background">
+    <div class="playlist">
+        PLAYLIST
+<br>
+<br>
+<br>
+        <button id="btn1" onclick="btnplay()">The Weeknd - Blinding Lights</button>
+        <button id="btn2" onclick="btnplay2()">Teto - Groupies</button>
+        <button>Kwabs - Walk</button>
+        <button>Glass Animals - Heat Waves</button>
+        <button>AURORA - Runaway</button>
+        <button>Billie Eilish - lovely</button>
+    </div>
+    <div class="player">
+        <img id="logo" src="./Capa_de_Blinding_Lights.png" alt="" width="200px">
+        <h2 id="nomeMusica">The Weeknd - Blinding Lights</h2>
+        <div class="duracao">
+            <div class="barra">
+              
+              <div class="ponto"></div>
+            </div>
+            <div class="tempo">
+              <p class="inicio"></p>
+              <p class="fim"></p>
+            </div>
+          </div>
+      <div id="control" class="control">  
+    <img class="btn" onclick="start()" src="./assets/start.png" alt="" width="50px">
+    <img class="btn" onclick="playpause()" src="./assets/play.png" alt="" width="50px" id="play1">
+    <img class="btn" onclick="end()" src="./assets/end.png" alt="" width="50px">
+      </div>
+
+    </div>
+</div>
+  <div class="audios">
+      <audio  id="audio1">
+          <source src="./assets/song1.mp3" type="audio/ogg" >
+      </audio>
+      
+      <audio id="audio2">
+          <source src="./assets/song2.mp3" type="audio/ogg">
+      </audio>
+    
+  </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
